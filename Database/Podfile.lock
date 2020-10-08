@@ -1,36 +1,34 @@
 PODS:
-  - Firebase/CoreOnly (6.27.1):
-    - FirebaseCore (= 6.8.1)
-  - Firebase/Database (6.27.1):
+  - Firebase/CoreOnly (6.34.0):
+    - FirebaseCore (= 6.10.4)
+  - Firebase/Database (6.34.0):
     - Firebase/CoreOnly
-    - FirebaseDatabase (~> 6.3.0)
-  - FirebaseCore (6.8.1):
-    - FirebaseCoreDiagnostics (~> 1.3)
-    - GoogleUtilities/Environment (~> 6.5)
-    - GoogleUtilities/Logger (~> 6.5)
-  - FirebaseCoreDiagnostics (1.4.0):
-    - GoogleDataTransportCCTSupport (~> 3.1)
-    - GoogleUtilities/Environment (~> 6.5)
-    - GoogleUtilities/Logger (~> 6.5)
-    - nanopb (~> 1.30905.0)
-  - FirebaseDatabase (6.3.0):
-    - FirebaseCore (~> 6.8)
+    - FirebaseDatabase (~> 6.6.0)
+  - FirebaseCore (6.10.4):
+    - FirebaseCoreDiagnostics (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.7.0):
+    - GoogleDataTransport (~> 7.4)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30906.0)
+  - FirebaseDatabase (6.6.0):
+    - FirebaseCore (~> 6.10)
     - leveldb-library (~> 1.22)
-  - GoogleDataTransport (6.2.1)
-  - GoogleDataTransportCCTSupport (3.2.0):
-    - GoogleDataTransport (~> 6.1)
-    - nanopb (~> 1.30905.0)
-  - GoogleUtilities/Environment (6.6.0):
+  - GoogleDataTransport (7.5.0):
+    - nanopb (~> 1.30906.0)
+  - GoogleUtilities/Environment (6.7.2):
     - PromisesObjC (~> 1.2)
-  - GoogleUtilities/Logger (6.6.0):
+  - GoogleUtilities/Logger (6.7.2):
     - GoogleUtilities/Environment
   - leveldb-library (1.22)
-  - nanopb (1.30905.0):
-    - nanopb/decode (= 1.30905.0)
-    - nanopb/encode (= 1.30905.0)
-  - nanopb/decode (1.30905.0)
-  - nanopb/encode (1.30905.0)
-  - PromisesObjC (1.2.9)
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
+  - PromisesObjC (1.2.11)
 
 DEPENDENCIES:
   - Firebase/Database
@@ -42,24 +40,22 @@ SPEC REPOS:
     - FirebaseCoreDiagnostics
     - FirebaseDatabase
     - GoogleDataTransport
-    - GoogleDataTransportCCTSupport
     - GoogleUtilities
     - leveldb-library
     - nanopb
     - PromisesObjC
 
 SPEC CHECKSUMS:
-  Firebase: 919186c8e119dd9372a45fd1dd17a8a942bc1892
-  FirebaseCore: 8cd4f8ea22075e0ee582849b1cf79d8816506085
-  FirebaseCoreDiagnostics: 4505e4d4009b1d93f605088ee7d7764d5f0d1c84
-  FirebaseDatabase: 3d02ffa794ec174853c086cf87cf2dc79bd6da49
-  GoogleDataTransport: 9a8a16f79feffc7f42096743de2a7c4815e84020
-  GoogleDataTransportCCTSupport: 489c1265d2c85b68187a83a911913d190012158d
-  GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  Firebase: c23a36d9e4cdf7877dfcba8dd0c58add66358999
+  FirebaseCore: d3a978a3cfa3240bf7e4ba7d137fdf5b22b628ec
+  FirebaseCoreDiagnostics: 770ac5958e1372ce67959ae4b4f31d8e127c3ac1
+  FirebaseDatabase: 13a865a4b85897462b930eb683bda8f52583713f
+  GoogleDataTransport: 445302b7da4216da63071a4c29e7023f47192e5a
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
-  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
-  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
 
-PODFILE CHECKSUM: 4a5d8ca50779b0745cc8a6eed485c325bb517b35
+PODFILE CHECKSUM: b1586623d3d64580f4b770aa969ef1073a39185a
 
 COCOAPODS: 1.9.3

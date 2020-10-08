@@ -1,40 +1,38 @@
 PODS:
-  - Firebase/CoreOnly (6.27.1):
-    - FirebaseCore (= 6.8.1)
-  - Firebase/Storage (6.27.1):
+  - Firebase/CoreOnly (6.34.0):
+    - FirebaseCore (= 6.10.4)
+  - Firebase/Storage (6.34.0):
     - Firebase/CoreOnly
-    - FirebaseStorage (~> 3.7.0)
-  - FirebaseCore (6.8.1):
-    - FirebaseCoreDiagnostics (~> 1.3)
-    - GoogleUtilities/Environment (~> 6.5)
-    - GoogleUtilities/Logger (~> 6.5)
-  - FirebaseCoreDiagnostics (1.4.0):
-    - GoogleDataTransportCCTSupport (~> 3.1)
-    - GoogleUtilities/Environment (~> 6.5)
-    - GoogleUtilities/Logger (~> 6.5)
-    - nanopb (~> 1.30905.0)
-  - FirebaseStorage (3.7.0):
-    - FirebaseCore (~> 6.8)
+    - FirebaseStorage (~> 3.9.1)
+  - FirebaseCore (6.10.4):
+    - FirebaseCoreDiagnostics (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.7.0):
+    - GoogleDataTransport (~> 7.4)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30906.0)
+  - FirebaseStorage (3.9.1):
+    - FirebaseCore (~> 6.10)
     - GTMSessionFetcher/Core (~> 1.1)
-  - GoogleDataTransport (6.2.1)
-  - GoogleDataTransportCCTSupport (3.2.0):
-    - GoogleDataTransport (~> 6.1)
-    - nanopb (~> 1.30905.0)
-  - GoogleUtilities/Environment (6.6.0):
+  - GoogleDataTransport (7.5.0):
+    - nanopb (~> 1.30906.0)
+  - GoogleUtilities/Environment (6.7.2):
     - PromisesObjC (~> 1.2)
-  - GoogleUtilities/Logger (6.6.0):
+  - GoogleUtilities/Logger (6.7.2):
     - GoogleUtilities/Environment
   - GTMSessionFetcher/Core (1.4.0)
-  - nanopb (1.30905.0):
-    - nanopb/decode (= 1.30905.0)
-    - nanopb/encode (= 1.30905.0)
-  - nanopb/decode (1.30905.0)
-  - nanopb/encode (1.30905.0)
-  - OCMock (3.6)
-  - PromisesObjC (1.2.9)
-  - SDWebImage (5.8.3):
-    - SDWebImage/Core (= 5.8.3)
-  - SDWebImage/Core (5.8.3)
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
+  - OCMock (3.7.1)
+  - PromisesObjC (1.2.11)
+  - SDWebImage (5.9.2):
+    - SDWebImage/Core (= 5.9.2)
+  - SDWebImage/Core (5.9.2)
 
 DEPENDENCIES:
   - Firebase/Storage
@@ -48,7 +46,6 @@ SPEC REPOS:
     - FirebaseCoreDiagnostics
     - FirebaseStorage
     - GoogleDataTransport
-    - GoogleDataTransportCCTSupport
     - GoogleUtilities
     - GTMSessionFetcher
     - nanopb
@@ -57,19 +54,18 @@ SPEC REPOS:
     - SDWebImage
 
 SPEC CHECKSUMS:
-  Firebase: 919186c8e119dd9372a45fd1dd17a8a942bc1892
-  FirebaseCore: 8cd4f8ea22075e0ee582849b1cf79d8816506085
-  FirebaseCoreDiagnostics: 4505e4d4009b1d93f605088ee7d7764d5f0d1c84
-  FirebaseStorage: af7bdbd12177cf567df00904e3e3a93704f25b15
-  GoogleDataTransport: 9a8a16f79feffc7f42096743de2a7c4815e84020
-  GoogleDataTransportCCTSupport: 489c1265d2c85b68187a83a911913d190012158d
-  GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  Firebase: c23a36d9e4cdf7877dfcba8dd0c58add66358999
+  FirebaseCore: d3a978a3cfa3240bf7e4ba7d137fdf5b22b628ec
+  FirebaseCoreDiagnostics: 770ac5958e1372ce67959ae4b4f31d8e127c3ac1
+  FirebaseStorage: 15e0f15ef3c7fec3d1899d68623e47d4447066b4
+  GoogleDataTransport: 445302b7da4216da63071a4c29e7023f47192e5a
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
-  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
-  OCMock: 5ea90566be239f179ba766fd9fbae5885040b992
-  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
-  SDWebImage: 112503ec94a5a2a41869503844a15e8d8f1ead5c
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  OCMock: 75fbeaa46a9b11f8c182bbb1d1f7e9a35ccc9955
+  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  SDWebImage: 0b42b8719ab0c5257177d5894306e8a336b21cbb
 
-PODFILE CHECKSUM: 4ee09a538f9ded78a1ee0184c63b1157301e92e4
+PODFILE CHECKSUM: 7b57ae239f036823be9c696e3211fd4f2c5016c9
 
 COCOAPODS: 1.9.3
